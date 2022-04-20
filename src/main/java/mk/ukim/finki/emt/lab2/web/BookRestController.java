@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://reactapplab2.herokuapp.com/")
 @RequestMapping("/api/books")
 public class BookRestController {
 
